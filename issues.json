@@ -2,7 +2,7 @@
   "Solutions": [
     {
       "info": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures)",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "at net.minecraft.client.renderer.RegionRenderCache.func_180495_p(RegionRenderCache.java:72)"
@@ -15,7 +15,7 @@
     },
     {
       "info": "Don't hold F3+C",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "Description: Manually triggered debug crash"
@@ -24,7 +24,7 @@
     },
     {
       "info": "XanderLib encountered an issue whilst installing. Try to update mods that use it. (e.g. EvergreenHUD)",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "Caused by: java.lang.NoClassDefFoundError: co/uk/isxander/xanderlib"
@@ -33,7 +33,7 @@
     },
     {
       "info": "DungeonsGuide failed to authenticate. Make sure it is up to date.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "[kr.syeyoung.dungeonsguide.Authenticator:authenticateAndDownload:111]: java.io.IOException: Server returned HTTP response code: 403 for URL:"
@@ -42,7 +42,7 @@
     },
     {
       "info": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "at me.Danker"
@@ -51,7 +51,7 @@
     },
     {
       "info": "Likely an issue with SkyblockCatia. This mod has been known to be incompatible with some mods and it is recommended you remove it.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/layers/LayerCustomHead"
@@ -60,7 +60,7 @@
     },
     {
       "info": "Delete the 'modcore' folder in your .minecraft folder.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: club/sk1er/mods/core/gui/notification/Notifications"
@@ -69,7 +69,7 @@
     },
     {
       "info": "SkyblockAddons is encountering problems. Get support [here](https://discord.gg/PqTAEek) and remove it in the meantime.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "at codes.biscuit.skyblockaddons"
@@ -78,7 +78,7 @@
     },
     {
       "info": "Sk1er API appears to be down. Please wait until the issue is resolved.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
@@ -87,15 +87,61 @@
     },
     {
       "info": "You either have multiple optifine jars in your mods folder or it is corrupted.",
-      "checks": [
+      "and": [
         {
           "method": "contains",
           "value": "java.lang.NoClassDefFoundError: net/optifine/gui/GuiMessage"
         }
       ]
+    },
+    {
+      "info": "You are using an old Forge version. Mods may depend on this to function properly. Please update it [here](https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "forge-1.8.9-11.15.1.2318-1.8.9.jar",
+          "not": true
+        },
+        {
+          "method": "contains",
+          "value": "Forge{11.15.1.2318}",
+          "not": true
+        }
+      ]
     }
   ],
   "Recommendations": [
-
+    {
+      "info": "You are using SkyblockExtras. It is highly recommended that you remove it due to incompatibilities with other mods. As well as this, it breaks the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) AND the developer is know to have done some pretty bad things. Find alternatives [here](https://proudmuslim.tech/bad-mod-alternatives/sbe.html).",
+      "and": [
+        {
+          "method": "regex",
+          "value": "SkyblockExtras\\{(?:[0-9]\.*)+\\} \\[SkyblockExtras\\] \\("
+        }
+      ]
+    },
+    {
+      "info": "You are using BetterFps. It has been known to get you banned and to cause visual glitches. Consider [Sk1er's Patcher](https://sk1er.club/mods/patcher) if you don't have it already.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Calling tweak class me.guichaguri.betterfps.tweaker.BetterFpsTweaker"
+        }
+      ]
+    },
+    {
+      "info": "Update OptiFine to the [latest version](https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "OptiFine_1.8.9_HD_U"
+        },
+        {
+          "method": "regex",
+          "value": "HD_U_M5(?:\\.jar)?(\\s\\d{1,3} mods loaded|$)",
+          "not": true
+        }
+      ]
+    }
   ]
 }
