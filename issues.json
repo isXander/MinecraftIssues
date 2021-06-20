@@ -116,7 +116,7 @@
       "and": [
         {
           "method": "regex",
-          "value": "SkyblockExtras\\{(?:[0-9]\.*)+\\} \\[SkyblockExtras\\] \\("
+          "value": "SkyblockExtras\\{(?:[0-9]\\.*)+\\} \\[SkyblockExtras\\] \\("
         }
       ]
     },
