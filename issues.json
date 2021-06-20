@@ -115,6 +115,10 @@
           "method": "contains",
           "value": "Forge{11.15.1.2318}",
           "not": true
+        },
+        {
+          "method": "regex",
+          "value": "11\\.15\\.1\\.[0-9]{4}"
         }
       ]
     }
