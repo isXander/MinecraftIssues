@@ -1,0 +1,101 @@
+{
+  "Solutions": [
+    {
+      "info": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures)",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.renderer.RegionRenderCache.func_180495_p(RegionRenderCache.java:72)"
+        },
+        {
+          "method": "contains",
+          "value": "at net.optifine.override.ChunkCacheOF.func_180495_p(ChunkCacheOF.java:147)"
+        }
+      ]
+    },
+    {
+      "info": "Don't hold F3+C",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "Description: Manually triggered debug crash"
+        }
+      ]
+    },
+    {
+      "info": "XanderLib encountered an issue whilst installing. Try to update mods that use it. (e.g. EvergreenHUD)",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.NoClassDefFoundError: co/uk/isxander/xanderlib"
+        }
+      ]
+    },
+    {
+      "info": "DungeonsGuide failed to authenticate. Make sure it is up to date.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "[kr.syeyoung.dungeonsguide.Authenticator:authenticateAndDownload:111]: java.io.IOException: Server returned HTTP response code: 403 for URL:"
+        }
+      ]
+    },
+    {
+      "info": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "at me.Danker"
+        }
+      ]
+    },
+    {
+      "info": "Likely an issue with SkyblockCatia. This mod has been known to be incompatible with some mods and it is recommended you remove it.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/layers/LayerCustomHead"
+        }
+      ]
+    },
+    {
+      "info": "Delete the 'modcore' folder in your .minecraft folder.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: club/sk1er/mods/core/gui/notification/Notifications"
+        }
+      ]
+    },
+    {
+      "info": "SkyblockAddons is encountering problems. Get support [here](https://discord.gg/PqTAEek) and remove it in the meantime.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "at codes.biscuit.skyblockaddons"
+        }
+      ]
+    },
+    {
+      "info": "Sk1er API appears to be down. Please wait until the issue is resolved.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
+        }
+      ]
+    },
+    {
+      "info": "You either have multiple optifine jars in your mods folder or it is corrupted.",
+      "checks": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: net/optifine/gui/GuiMessage"
+        }
+      ]
+    }
+  ],
+  "Recommendations": [
+
+  ]
+}
