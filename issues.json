@@ -1,6 +1,15 @@
 {
   "Solutions": [
     {
+      "info": "One or more of your mods has not been reobfuscated properly. Ask the developer of the mod to fix this issue.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoSuchMethodError: net/minecraft/client/Minecraft"
+        }
+      ]
+    },
+    {
       "info": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures)",
       "and": [
         {
@@ -112,7 +121,7 @@
   ],
   "Recommendations": [
     {
-      "hardcode": "ram" 
+      "hardcode": "ram"
     },
     {
       "info": "You are using SkyblockExtras. It is highly recommended that you remove it due to incompatibilities with other mods. As well as this, it breaks the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) AND the developer is know to have done some pretty bad things. Find alternatives [here](https://proudmuslim.tech/bad-mod-alternatives/sbe.html).",
