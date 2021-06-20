@@ -112,6 +112,9 @@
   ],
   "Recommendations": [
     {
+      "hardcode": "ram" 
+    },
+    {
       "info": "You are using SkyblockExtras. It is highly recommended that you remove it due to incompatibilities with other mods. As well as this, it breaks the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) AND the developer is know to have done some pretty bad things. Find alternatives [here](https://proudmuslim.tech/bad-mod-alternatives/sbe.html).",
       "and": [
         {
