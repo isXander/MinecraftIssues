@@ -117,6 +117,16 @@
           "not": true
         },
         {
+          "method": "contains",
+          "value": "forge-1.8.9-11.15.1.0-1.8.9.jar",
+          "not": true
+        },
+        {
+          "method": "contains",
+          "value": "Forge{11.15.1.0}",
+          "not": true
+        },
+        {
           "method": "regex",
           "value": "11\\.15\\.1\\.[0-9]{4}"
         }
@@ -155,7 +165,26 @@
       ]
     },
     {
-      "info": "Update OptiFine to the [latest version](https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar)",
+      "info": "You are using a custom version of Forge. This may cause problems, and you should only use it if you know what you're doing. Please install the latest stable version [here](https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "forge-1.8.9-11.15.1.0-1.8.9.jar",
+          "not": true
+        },
+        {
+          "method": "contains",
+          "value": "Forge{11.15.1.0}",
+          "not": true
+        },
+        {
+          "method": "regex",
+          "value": "11\\.15\\.1\\.[0-9]{1,4}"
+        }
+      ]
+    },
+    {
+      "info": "Update OptiFine to the [latest version](https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar)",
       "and": [
         {
           "method": "contains",
