@@ -186,6 +186,15 @@
           "not": true
         }
       ]
+    },
+    {
+      "info": "You are using the OpenJ9 JVM. This has been known to cause issues even though it uses less memory. To use the alternative, Hotspot, you will have to [re-install Java](https://adoptopenjdk.net/).",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Java VM Version: Eclipse OpenJ9 VM"
+        }
+      ]
     }
   ]
 }
