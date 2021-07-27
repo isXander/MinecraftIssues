@@ -140,7 +140,16 @@
           "value": "# A fatal error has been detected by the Java Runtime Environment:"
         }
       ]
-    }
+    },
+    {
+      "info": "Cowlections is causing the issue. Remove the mod for now and get support [here](https://discord.gg/KRq5ZY9Hma/)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at de.cowtipper.cowlection.util.ChatHelper.sendMessage(ChatHelper.java:"
+        }
+      ]
+    }  
   ],
   "Recommendations": [
     {
