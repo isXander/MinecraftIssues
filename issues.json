@@ -108,22 +108,12 @@
       "and": [
         {
           "method": "contains",
-          "value": "forge-1.8.9-11.15.1.2318-1.8.9.jar",
+          "value": "11.15.1.2318",
           "not": true
         },
         {
           "method": "contains",
-          "value": "Forge{11.15.1.2318}",
-          "not": true
-        },
-        {
-          "method": "contains",
-          "value": "forge-1.8.9-11.15.1.0-1.8.9.jar",
-          "not": true
-        },
-        {
-          "method": "contains",
-          "value": "Forge{11.15.1.0}",
+          "value": "11.15.1.0",
           "not": true
         },
         {
@@ -193,6 +183,15 @@
         {
           "method": "contains",
           "value": "Java VM Version: Eclipse OpenJ9 VM"
+        }
+      ]
+    },
+    {
+      "info": "You are using a custom version of Forge. Forks such as Asbyth Forge have been known to cause issues with mods and is not recommended, even by the developer.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Launched Version: 1.8.9-forge1.8.9-11.15.1.0"
         }
       ]
     }
