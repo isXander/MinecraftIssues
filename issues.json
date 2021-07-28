@@ -139,7 +139,16 @@
           "value": "at de.cowtipper.cowlection.util.ChatHelper.sendMessage(ChatHelper.java:"
         }
       ]
-    }  
+    },
+    {
+      "info": "EvergreenHUD appears to be outdated. [Update here](https://github.com/isXander/EvergreenHUD/releases)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at co.uk.isxander.xanderlib.utils.GuiUtils.stripFormattingCodes(GuiUtils.java:129)"
+        }
+      ]
+    }
   ],
   "Recommendations": [
     {
