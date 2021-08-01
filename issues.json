@@ -1,6 +1,15 @@
 {
   "Solutions": [
     {
+      "info": "Update patcher to to 1.6+, or, remove all mods that use Essential (ModCore 2)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at club.sk1er.patcher.registry.AsyncBlockAndItems.load(AsyncBlockAndItems.kt:28)"
+        }
+      ]
+    },
+    {
       "info": "One or more of your mods has not been reobfuscated properly. Ask the developer of the mod to fix this issue.",
       "and": [
         {
@@ -55,6 +64,37 @@
         {
           "method": "contains",
           "value": "at me.Danker"
+        }
+      ]
+    },
+    {
+      "info": "Your GPU appears to be too old for some rendering options in Minecraft. There is no way to fix this other than upgrading your PC.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.IllegalStateException: Function is not supported"
+        }
+      ]
+    },
+    {
+      "info": "Essential issue. Get support on Sk1er's support server https://discord.gg/WqkdC8XbVe",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoSuchMethodError: gg.essential.elementa.components.UIWrappedText.<init>(Ljava/lang/String;ZLjava/awt/Color;ZZFLjava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V"
+        }
+      ]
+    },
+    {
+      "info": "Skyclient Cosmetics is outdated. Please update.",
+      "or": [
+        {
+          "method": "contains",
+          "value": "java.net.UnknownHostException: koxx12-dev.github.io"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
         }
       ]
     },
@@ -148,6 +188,15 @@
           "value": "at co.uk.isxander.xanderlib.utils.GuiUtils.stripFormattingCodes(GuiUtils.java:129)"
         }
       ]
+    },
+    {
+      "info": "One of your mods tried to render something incorrectly. Make sure it is up to date.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.RuntimeException: No OpenGL context found in the current thread."
+        }
+      ]
     }
   ],
   "Recommendations": [
@@ -201,6 +250,15 @@
         {
           "method": "contains",
           "value": "Launched Version: 1.8.9-forge1.8.9-11.15.1.0"
+        }
+      ]
+    },
+    {
+      "info": "Windows 7 is no longer supported by Microsoft. Please upgrade to Windows 10/Linux.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Operating System: Windows 7"
         }
       ]
     }
