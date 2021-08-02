@@ -275,6 +275,15 @@
           "value": "Operating System: Windows 7"
         }
       ]
+    },
+    {
+      "info": "Prism pack is known to cause a lot of crashes.",
+      "and": [
+        {
+          "method": "regex",
+          "value": "Resource Packs:.* (\u00A7|�)fp(\u00A7|�)[0-9a-f]rism"
+        }
+      ]
     }
   ]
 }
