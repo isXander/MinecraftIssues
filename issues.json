@@ -149,7 +149,7 @@
       ]
     },
     {
-      "info": "Essentials is not compatible with OpenJ9, Remove Openj9 if you want to use Essentials",
+      "info": "Essentials is not compatible with OpenJ9, Remove OpenJ9 if you want to use Essentials",
       "and": [
         {
           "method": "contains",
