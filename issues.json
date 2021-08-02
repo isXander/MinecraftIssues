@@ -99,7 +99,7 @@
       "and": [
         {
           "method": "contains",
-          "value": "io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
+          "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
         }
       ]
     },
