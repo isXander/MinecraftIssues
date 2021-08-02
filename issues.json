@@ -149,6 +149,15 @@
       ]
     },
     {
+      "info": "Essentials is not compatible with OpenJ9, Remove Openj9 if you want to use Essentials",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoSuchFieldException: allowedModes"
+        }
+      ]
+    },
+    {
       "info": "You are using an old Forge version. Mods may depend on this to function properly. Please update it [here](https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar)",
       "and": [
         {
