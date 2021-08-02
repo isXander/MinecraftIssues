@@ -240,11 +240,11 @@
       "and": [
         {
           "method": "contains",
-          "value": "OptiFine_1.8.9_HD_U"
+          "value": "OptiFine_1.8.9_HD_U_"
         },
         {
-          "method": "regex",
-          "value": "HD_U_M5(?:\\.jar)?(\\s\\d{1,3} mods loaded|$)",
+          "method": "contains",
+          "value": "OptiFine_1.8.9_HD_U_M5",
           "not": true
         }
       ]
