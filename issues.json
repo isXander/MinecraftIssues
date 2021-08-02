@@ -243,8 +243,8 @@
           "value": "OptiFine_1.8.9_HD_U_"
         },
         {
-          "method": "contains",
-          "value": "OptiFine_1.8.9_HD_U_M5",
+          "method": "regex",
+          "value": "OptiFine_1\\.8\\.9_HD_U_M[56]",
           "not": true
         }
       ]
