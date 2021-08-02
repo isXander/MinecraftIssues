@@ -86,12 +86,17 @@
       ]
     },
     {
-      "info": "Skyclient Cosmetics is outdated. Please update.",
-      "or": [
+      "info": "Failed to connect to Skyclient Cosmetics API",
+      "and": [
         {
           "method": "contains",
           "value": "java.net.UnknownHostException: koxx12-dev.github.io"
-        },
+        }
+      ]
+    },
+    {
+      "info": "Dont use \"Debug Display Tags\" in Skyclient Cosmetics settings (This is Debug feature for a reason)",
+      "and": [
         {
           "method": "contains",
           "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
