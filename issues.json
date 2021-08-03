@@ -284,6 +284,15 @@
           "value": "Resource Packs:.* (\u00A7|�)fp(\u00A7|�)[0-9a-f]rism"
         }
       ]
+    },
+    {
+      "info": "Please send the crash log and not latest.log",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Game crashed! Crash report saved to:"
+        }
+      ]
     }
   ]
 }
