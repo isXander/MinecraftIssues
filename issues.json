@@ -286,10 +286,10 @@
       ]
     },
     {
-      "info": "Please send the crash log and not latest.log"
+      "info": "Please send the crash log and not latest.log",
       "and": [
         {
-          "method": "contains"
+          "method": "contains",
           "value": "Game crashed! Crash report saved to:"
         }
       ]
