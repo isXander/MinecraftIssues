@@ -285,12 +285,29 @@
         }
       ]
     },
-    {
+    {   
       "info": "Please send the crash log and not latest.log",
       "and": [
         {
           "method": "contains",
           "value": "Game crashed! Crash report saved to:"
+        }
+      ]
+    },
+    {
+      "info": "This looks like the SBA OwO language crash. Join discord.gg/qBkzcgdPqU for more info.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.StackOverflowError: Rendering screen"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.gui.FontRenderer.func_78280_d(FontRenderer.java:999)"
+        },
+        {
+          "method": "contains",
+          "value": "Screen name: net.minecraft.client.gui.inventory.GuiChest"
         }
       ]
     }
