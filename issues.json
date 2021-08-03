@@ -235,6 +235,15 @@
       "hardcode": "ram"
     },
     {
+      "info": "One or more of your mods are obfuscated (probably SBE). This is very bad and you should not use them.",
+      "and": [
+        {
+          "method": "regex",
+          "value": "[Il]{5,}"
+        }
+      ]
+    },
+    {
       "info": "You are using SkyblockExtras. It is highly recommended that you remove it due to incompatibilities with other mods. As well as this, it breaks the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) AND the developer is know to have done some pretty bad things. Find alternatives [here](https://proudmuslim.tech/bad-mod-alternatives/sbe.html).",
       "and": [
         {
