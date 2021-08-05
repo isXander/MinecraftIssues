@@ -256,8 +256,8 @@
       "info": "You are using BetterFps. It has been known to get you banned and to cause visual glitches. Consider [Sk1er's Patcher](https://sk1er.club/mods/patcher) if you don't have it already.",
       "and": [
         {
-          "method": "regex",
-          "value": "BetterFps-[0-9.]+"
+          "method": "contains",
+          "value": "BetterFPS: true"
         }
       ]
     },
