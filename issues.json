@@ -1,7 +1,7 @@
 {
   "Solutions": [
     {
-      "info": "Update patcher to to 1.6+, or, remove all mods that use Essential (ModCore 2)",
+      "info": "Update patcher to to 1.6+",
       "and": [
         {
           "method": "contains",
