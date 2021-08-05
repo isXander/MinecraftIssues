@@ -1,7 +1,7 @@
 {
   "Solutions": [
     {
-      "info": "Update patcher to to 1.6+",
+      "info": "Update patcher to 1.6+",
       "and": [
         {
           "method": "contains",
