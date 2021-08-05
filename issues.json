@@ -228,6 +228,15 @@
           "value": "Screen name: net.minecraft.client.gui.inventory.GuiChest"
         }
       ]
+    },
+    {
+      "info": "Essential appears to be experiencing issues while downloading. Please be patient while the issue are resolved.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.io.FileNotFoundException: https://downloads.essential.gg"
+        }
+      ]
     }
   ],
   "Recommendations": [
