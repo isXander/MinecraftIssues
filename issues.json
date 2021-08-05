@@ -234,7 +234,7 @@
       "and": [
         {
           "method": "contains",
-          "value": "hudcaching
+          "value": "hudcaching"
         }
       ]
     }
