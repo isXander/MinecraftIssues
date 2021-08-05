@@ -228,15 +228,6 @@
           "value": "Screen name: net.minecraft.client.gui.inventory.GuiChest"
         }
       ]
-    },
-    {
-      "info": "HUDCaching has been replaced by Patcher 1.6. Please remove it.",
-      "and": [
-        {
-          "method": "contains",
-          "value": "hudcaching"
-        }
-      ]
     }
   ],
   "Recommendations": [
@@ -326,6 +317,15 @@
         {
           "method": "contains",
           "value": "Game crashed! Crash report saved to:"
+        }
+      ]
+    },
+    {
+      "info": "HUDCaching has been replaced by Patcher 1.6. Please remove it.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "hudcaching"
         }
       ]
     }
