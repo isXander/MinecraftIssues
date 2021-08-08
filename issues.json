@@ -246,6 +246,15 @@
           "value": "(?:java\\.net\\.SocketTimeoutException: Read timed out)+
         }
       ]
+    },
+    {
+      "info": "Update Sk1er's Old Animations Mod https://discord.gg/d4KFR9H (beta discord)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "[club.sk1er.mods.sk1eroldanimations.ModCoreInstaller:fetchString:262]: java.net.SocketTimeoutException: connect timed out"
+        }
+      ]
     }
   ],
   "Recommendations": [
