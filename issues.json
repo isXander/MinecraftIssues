@@ -255,6 +255,15 @@
           "value": "[club.sk1er.mods.sk1eroldanimations.ModCoreInstaller:fetchString:262]: java.net.SocketTimeoutException: connect timed out"
         }
       ]
+    },
+    {
+      "info": "Skyblockatia is currently incompatible with Patcher 1.6. Please remove Skyblockatia.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: club/sk1er/patcher/hooks/FontRendererHook"
+        }
+      ]
     }
   ],
   "Recommendations": [
