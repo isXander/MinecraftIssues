@@ -22,12 +22,12 @@
       "info": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures)",
       "and": [
         {
-          "method": "contains",
-          "value": "at net.minecraft.client.renderer.RegionRenderCache.func_180495_p(RegionRenderCache.java:72)"
+          "method": "regex",
+          "value": "at net\\.minecraft\\.client\\.renderer\\.RegionRenderCache\\.(func_180495_p|getBlockState)\\(RegionRenderCache\\.java:72\\)"
         },
         {
-          "method": "contains",
-          "value": "at net.optifine.override.ChunkCacheOF.func_180495_p(ChunkCacheOF.java:147)"
+          "method": "regex",
+          "value": "java\\.lang\\.ArrayIndexOutOfBoundsException: -[0-9]+"
         }
       ]
     },
