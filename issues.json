@@ -1,4 +1,15 @@
 {
+  "Warnings": [
+    {
+      "info": "Make sure to upload the crash report rather than sending a screenshot of the launcher.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Open crash report"
+        }
+      ]
+    }
+  ],
   "Solutions": [
     {
       "info": "Update patcher to 1.6+",
