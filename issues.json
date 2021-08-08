@@ -111,7 +111,7 @@
           "value": "[io.github.koxx12dev.scc.listeners.ChatListeners:onChatMsgTags:108]: org.json.JSONException: JSONArray[0] is not a JSONObject."
         }
       ]
-    }
+    },
     {
       "info": "Likely an issue with SkyblockCatia. This mod has been known to be incompatible with some mods and it is recommended you remove it.",
       "and": [
