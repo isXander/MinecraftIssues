@@ -237,6 +237,15 @@
           "value": "java.io.FileNotFoundException: https://downloads.essential.gg"
         }
       ]
+    },
+    {
+      "info": "Looks like you are having internet problems. Make sure your internet connection is stable!",
+      "and": [
+        {
+          "method": "regex",
+          "value": "(?:java\\.net\\.SocketTimeoutException: Read timed out)+
+        }
+      ]
     }
   ],
   "Recommendations": [
