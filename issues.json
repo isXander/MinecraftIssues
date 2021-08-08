@@ -2,10 +2,14 @@
   "Warnings": [
     {
       "info": "Make sure to upload the crash report rather than sending a screenshot of the launcher.",
-      "and": [
+      "or": [
         {
           "method": "contains",
           "value": "Open crash report"
+        },
+        {
+          "method": "contains",
+          "value": "The game crashed whilst"
         }
       ]
     }
