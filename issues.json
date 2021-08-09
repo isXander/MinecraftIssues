@@ -320,6 +320,15 @@
           "value": "Enqueued coremod YASMTweaker"
         }
       ]
+    },
+    {
+      "info": "Either try to play without Dungeons Guide or remove it.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "DungeonsGuide has ran into error while loading itself"
+        }
+      ]
     }
   ],
   "Recommendations": [
