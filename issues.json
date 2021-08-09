@@ -288,6 +288,15 @@
           "value": "java.lang.NoClassDefFoundError: club/sk1er/patcher/hooks/FontRendererHook"
         }
       ]
+    },
+    {
+      "info": "Wyvilities messed up name hightlight. All you need to do is restart minecraft.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at net.wyvest.wyvtilities.listeners.Listener.getColor(Listener.kt:36)"
+        }
+      ]
     }
   ],
   "Recommendations": [
