@@ -306,6 +306,20 @@
           "value": "java.lang.ClassNotFoundException: net.minecraftforge.fml.common.launcher.FMLTweaker"
         }
       ]
+    },
+    {
+      "_comment": "this check bad stfu",
+      "info": "Delete Yet Another Skyblock Mod",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.util.ConcurrentModificationException"
+        },
+        {
+          "method": "contains",
+          "value": "Enqueued coremod YASMTweaker"
+        }
+      ]
     }
   ],
   "Recommendations": [
