@@ -2,7 +2,7 @@
 A repository of Minecraft errors and solutions/recommendations.
 
 ### Schema
-```json
+```json5
 {
   "info": "This is the text that is shown to the user when triggered",
   "and": [ // all checks must be true
