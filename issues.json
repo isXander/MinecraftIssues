@@ -297,6 +297,15 @@
           "value": "at net.wyvest.wyvtilities.listeners.Listener.getColor(Listener.kt:36)"
         }
       ]
+    },
+    {
+      "info": "Looks like you have a corrupted forge installation. Try re-installing it.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.ClassNotFoundException: net.minecraftforge.fml.common.launcher.FMLTweaker"
+        }
+      ]
     }
   ],
   "Recommendations": [
