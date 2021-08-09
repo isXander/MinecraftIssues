@@ -367,7 +367,8 @@
       "and": [
         {
           "method": "contains",
-          "value": "Launched Version: 1.8.9-forge1.8.9-11.15.1.0"
+          "value": "Launched Version: 1.8.9-forge1.8.9-11.15.1.0",
+          "leniency": 0
         }
       ]
     },
