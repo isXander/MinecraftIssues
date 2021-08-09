@@ -367,7 +367,8 @@
       "and": [
         {
           "method": "contains",
-          "value": "Operating System: Windows 7"
+          "value": "Operating System: Windows 7",
+          "leniency": 0
         }
       ]
     },
