@@ -310,9 +310,6 @@
   ],
   "Recommendations": [
     {
-      "hardcode": "ram"
-    },
-    {
       "info": "One or more of your mods are obfuscated (probably SBE). This is very bad and you should not use them.",
       "and": [
         {
