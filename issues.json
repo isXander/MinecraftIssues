@@ -329,6 +329,15 @@
           "value": "DungeonsGuide has ran into error while loading itself"
         }
       ]
+    },
+    {
+      "info": "Log out and back in again in the launcher.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Invalid session (Try restarting your game)"
+        }
+      ]
     }
   ],
   "Recommendations": [
