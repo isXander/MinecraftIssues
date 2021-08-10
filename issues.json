@@ -150,7 +150,8 @@
       "and": [
         {
           "method": "contains",
-          "value": "at codes.biscuit.skyblockaddons"
+          "value": "at codes.biscuit.skyblockaddons", 
+          "leniency": 0
         }
       ]
     },
