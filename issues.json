@@ -347,7 +347,7 @@
       "and": [
         {
           "method": "regex",
-          "value": "[Il]{5,}"
+          "value": "[Il]{6,}"
         }
       ]
     },
