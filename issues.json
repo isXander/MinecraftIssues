@@ -32,6 +32,15 @@
           "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoSuchMethodError: net/minecraft/client/Minecraft"
         }
       ]
+    },    
+    {
+      "info": "The Prism (Refractions) texturepack is known to cause Connected Texture crashes.",
+      "and": [
+        {
+          "method": "regex",
+          "value": "Resource Packs:.* (\u00A7|�)fp(\u00A7|�)[0-9a-f]rism"
+        }
+      ]
     },
     {
       "info": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures)",
