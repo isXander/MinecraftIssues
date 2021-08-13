@@ -339,6 +339,15 @@
           "value": "Invalid session (Try restarting your game)"
         }
       ]
+    },
+    {
+      "info": "Issue with Essential. Contact Sk1er Support https://discord.gg/WqkdC8XbVe",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.essential.api.EssentialAPI"
+        }
+      ]
     }
   ],
   "Recommendations": [
