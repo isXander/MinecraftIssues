@@ -16,7 +16,7 @@
   ],
   "Solutions": [
     {
-      "info": "Essentials Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
+      "info": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
       "and": [
         {
           "method": "contains",
@@ -285,7 +285,7 @@
       "and": [
         {
           "method": "regex",
-          "value": "(?:java\\.net\\.SocketTimeoutException: Read timed out)+"
+          "value": "(?:java\\.net\\.SocketTimeoutException: Read timed out){2,}"
         }
       ]
     },
