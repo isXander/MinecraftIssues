@@ -16,7 +16,7 @@
   ],
   "Solutions": [
     {
-      "info": "Essentials Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
+      "info": "**Essentials Backend might be down for \"Unplanned Maintanance\". Try again in a few Minutes.**",
       "and": [
         {
           "method": "contains",
@@ -277,15 +277,6 @@
         {
           "method": "contains",
           "value": "java.io.FileNotFoundException: https://downloads.essential.gg"
-        }
-      ]
-    },
-    {
-      "info": "Looks like you are having internet problems. Make sure your internet connection is stable!",
-      "and": [
-        {
-          "method": "regex",
-          "value": "(?:java\\.net\\.SocketTimeoutException: Read timed out)+"
         }
       ]
     },
