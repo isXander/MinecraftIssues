@@ -16,6 +16,23 @@
   ],
   "Solutions": [
     {
+      "info": "Essentials Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Loading tweak class name gg.essential.loader.stage0.EssentialSetupTweaker"
+        },
+        {
+          "method": "contains",
+          "value": "java.net.SocketTimeoutException: Read timed out"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.loader.stage1.EssentialLoader.fetchLatestMetadata(EssentialLoader.java"
+        }
+      ]
+    },
+    {
       "info": "Update patcher to 1.6+",
       "and": [
         {
