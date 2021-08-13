@@ -16,7 +16,7 @@
   ],
   "Solutions": [
     {
-      "info": "Essentials Backend might be down for \"Unplanned Maintanance\"\nTry again in a few Minutes.",
+      "info": "Essentials Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
       "and": [
         {
           "method": "contains",
