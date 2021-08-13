@@ -348,6 +348,15 @@
           "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.essential.api.EssentialAPI"
         }
       ]
+    },
+    {
+      "info": "Looks like you have two patcher mods installed. Please remove the old one.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.ClassFormatError: Duplicate field name&signature in class file net/minecraft/client/gui/GuiChat"
+        }
+      ]
     }
   ],
   "Recommendations": [
