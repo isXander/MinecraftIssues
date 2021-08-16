@@ -1,0 +1,19 @@
+jobs:
+  Validatejson:
+    name: Validate json
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: validate
+        run: |
+          #!/bin/bash
+          echo "Linting contents..."
+          for filename in *.json; do
+            if ! python -mjson.tool "$filename" &> /dev/null ; then
+                echo "Linting $filename failed:"
+                python -mjson.tool "$filename" > /dev/null
+            fi
+          done
+          echo "Linted."
+          echo "Event Type ${{ github.event_name }}"
