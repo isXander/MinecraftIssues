@@ -82,15 +82,6 @@
       ]
     },
     {
-      "info": "DungeonsGuide failed to authenticate. Make sure it is up to date.",
-      "and": [
-        {
-          "method": "contains",
-          "value": "[kr.syeyoung.dungeonsguide.Authenticator:authenticateAndDownload:111]: java.io.IOException: Server returned HTTP response code: 403 for URL:"
-        }
-      ]
-    },
-    {
       "info": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
       "and": [
         {
