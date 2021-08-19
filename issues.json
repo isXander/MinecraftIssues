@@ -374,6 +374,15 @@
           "value": "Caused by: java.lang.ClassFormatError: Duplicate field name&signature in class file net/minecraft/client/gui/GuiChat"
         }
       ]
+    },
+    {
+      "info": "This is caused by a random Java process being there when it shouldn't. Restart your computer, or use task manager to close it.",
+      "and": [
+        {
+        "method": "contains",
+        "value": "at gg.essential.loader.stage1.EssentialLoader.load(EssentialLoader.java:99) ~[stage1.jar:2]"
+        }
+      ]
     }
   ],
   "Recommendations": [
