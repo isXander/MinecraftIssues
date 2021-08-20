@@ -16,15 +16,6 @@
   ],
   "Solutions": [
     {
-      "info": "Ask for more help on Moulberry's discord. https://discord.gg/moulberry",
-      "and": [
-          {
-            "method": "contains",
-            "value": "at io.github.moulberry.notenoughupdates.miscfeatures.CustomSkulls.func_110549_a(CustomSkulls.java:85)"
-          }
-      ]
-    },
-    {
       "info": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
       "and": [
         {
@@ -43,11 +34,12 @@
     },
     {
       "info": "Update patcher to 1.6+",
-      "and": [
+      "or": [
         {
           "method": "contains",
           "value": "at club.sk1er.patcher.registry.AsyncBlockAndItems.load(AsyncBlockAndItems.kt:28)"
-        }
+        },
+{"method": "contains","value":"at io.github.moulberry.notenoughupdates.miscfeatures.CustomSkulls.func_110549_a(CustomSkulls.java:85)"}
       ]
     },
     {
