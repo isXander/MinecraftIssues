@@ -238,15 +238,6 @@
       ]
     },
     {
-      "info": "One of your mods tried to render something incorrectly. Make sure it is up to date.",
-      "and": [
-        {
-          "method": "contains",
-          "value": "java.lang.RuntimeException: No OpenGL context found in the current thread."
-        }
-      ]
-    },
-    {
       "info": "This looks like the SBA OwO language crash. Join [their discord](https://discord.gg/qBkzcgdPqU) for more info.",
       "and": [
         {
