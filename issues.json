@@ -128,7 +128,7 @@
       ]
     },
     {
-      "info": "Remove Skyclient Cosmetics",
+      "info": "Update Skyclient Cosmetics",
       "and": [
         {
           "method": "contains",
