@@ -165,15 +165,6 @@
       ]
     },
     {
-      "info": "Sk1er API appears to be down. Please wait until the issue is resolved.",
-      "and": [
-        {
-          "method": "contains",
-          "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
-        }
-      ]
-    },
-    {
       "info": "You either have multiple optifine jars in your mods folder or it is corrupted.",
       "and": [
         {
@@ -384,6 +375,15 @@
         {
           "method": "regex",
           "value": "[Il]{6,}"
+        }
+      ]
+    },
+    {
+      "info": "Sk1er API appears to be down. Please wait until the issue is resolved.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
         }
       ]
     },
