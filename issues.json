@@ -127,6 +127,15 @@
       ]
     },
     {
+      "info": "Dont use \"Debug Display Tags\" in Skyclient Cosmetics settings (This is Debug feature for a reason)",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
+        }
+      ]
+    },
+    {
       "info": "Update Skyclient Cosmetics",
       "and": [
         {
