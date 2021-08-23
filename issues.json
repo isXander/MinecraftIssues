@@ -33,6 +33,15 @@
       ]
     },
     {
+      "info": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
+      "and": [
+        {
+          "method": "contains",
+          "value": "	at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)\n	at io.github.moulberry.notenoughupdates.NEUEventListener.onGuiScreenDrawPre(NEUEventListener.java:899)"
+        }
+      ]
+    },
+    {
       "info": "Update patcher to 1.6+",
       "or": [
         {
