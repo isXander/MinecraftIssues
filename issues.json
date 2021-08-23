@@ -33,7 +33,7 @@
       ]
     },
     {
-      "info": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
+      "info": "Go to `.minecraft/config/notenoughupdates` (if you use SkyClient, it's `.minecraft/skyclient/config/notenoughupdates`) and delete `storageItems.json`",
       "and": [
         {
           "method": "contains",
