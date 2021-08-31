@@ -16,6 +16,15 @@
   ],
   "Solutions": [
     {
+      "info": "If you use a Microsoft account, enable multiplayer. You should be able to do so from https://account.xbox.com/en-us/Settings under the Xbox One/Windows 10 Online Safety tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it. From there, they should be able to enable multiplayer for your account.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Failed to login: null"
+        }
+      ]
+    }
+    {
       "info": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
       "and": [
         {
@@ -39,7 +48,10 @@
           "method": "contains",
           "value": "at club.sk1er.patcher.registry.AsyncBlockAndItems.load(AsyncBlockAndItems.kt:28)"
         },
-{"method": "contains","value":"at io.github.moulberry.notenoughupdates.miscfeatures.CustomSkulls.func_110549_a(CustomSkulls.java:85)"}
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscfeatures.CustomSkulls.func_110549_a(CustomSkulls.java:85)"
+        }
       ]
     },
     {
