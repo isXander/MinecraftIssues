@@ -312,11 +312,11 @@
       ]
     },
     {
-      "info": "Wyvilities messed up name hightlight. All you need to do is restart minecraft.",
+      "info": "Wyvilities messed up name hightlight. Update Wyvtilities.",
       "and": [
         {
           "method": "contains",
-          "value": "at net.wyvest.wyvtilities.listeners.Listener.getColor(Listener.kt:36)"
+          "value": "at net.wyvest.wyvtilities.listeners.Listener.getColor(Listener.kt:"
         }
       ]
     },
