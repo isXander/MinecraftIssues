@@ -25,6 +25,23 @@
       ]
     },
     {
+      "info": "Update Skyclient Cosmetics",
+      "and": [
+        {
+          "method": "contains",
+          "value": "org.json.JSONException: JSONObject[\"HpRanks\"] not found."
+        },
+        {
+          "method": "contains",
+          "value": "at org.json.JSONObject.get(JSONObject.java:572)"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.utils.Requests.reloadTags(Requests.java:44)"
+        }
+      ]
+    },
+    {
       "info": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
       "and": [
         {
