@@ -25,6 +25,19 @@
       ]
     },
     {
+      "info": "Essential Bug, Fixed in next version. Delete .minecraft/skyclient/essential/onboarding.json",
+      "and": [
+        {
+          "method": "contains",
+          "value": "com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.data.OnboardingData.loadData(OnboardingData.kt:77)"
+        }
+      ]
+    },
+    {
       "info": "Update Skyclient Cosmetics",
       "and": [
         {
