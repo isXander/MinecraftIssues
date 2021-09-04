@@ -417,6 +417,15 @@
         "value": "at gg.essential.loader.stage1.EssentialLoader.load(EssentialLoader.java:99) ~[stage1.jar:2]"
         }
       ]
+    },
+    {
+      "info": "Delete `.minecraft/versions/1.8.9/1.8.9.jar`",
+      "and": [
+        {
+          "method": "contains",
+          "value": "Default Missing pack.mcmeta :("
+        }
+      ]
     }
   ],
   "Recommendations": [
