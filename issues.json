@@ -34,6 +34,19 @@
       ]
     },
     {
+      "info": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
+      "and": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.AbstractMethodError"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.vigilance.data.PropertyAttributes$Companion.fromPropertyAnnotation(Property.kt:138)"
+        }
+      ]
+    },
+    {
       "info": "Essential Bug, Fixed in next version. Delete .minecraft/skyclient/essential/onboarding.json",
       "and": [
         {
