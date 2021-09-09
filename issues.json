@@ -25,6 +25,19 @@
       ]
     },
     {
+      "info": "**The power of the gods was too much for Java to handle. Delete any \"God Mode\" shortcuts on your PC and relaunch the game**",
+      "and": [
+        {
+          "method": "contains",
+          "value": "EXCEPTION_ACCESS_VIOLATION"
+        },
+        {
+          "method": "contains",
+          "value": "msvcr100.dll+0x36adf"
+        }
+      ]
+    },
+    {
       "info": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
       "and": [
         {
