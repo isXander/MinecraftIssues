@@ -461,6 +461,13 @@
           "value": "Default Missing pack.mcmeta :("
         }
       ]
+    },
+    {
+      "info": "Disable fullscreen.",
+      "and": [{
+        "method": "contains",
+        "value": "java.lang.RuntimeException: No OpenGL context found in the current thread.\n        at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)\n        at org.lwjgl.opengl.GL11.glPushMatrix(GL11.java:2592)\n        at net.minecraft.client.renderer.GlStateManager.pushMatrix(GlStateManager.java:585)"
+      }]
     }
   ],
   "Recommendations": [
