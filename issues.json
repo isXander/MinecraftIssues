@@ -461,6 +461,15 @@
           "value": "Default Missing pack.mcmeta :("
         }
       ]
+    },
+    {
+      "info": "Make sure your Deftu and Requisite mods are up to date.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "ava.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
+        }
+      ]
     }
   ],
   "Recommendations": [
