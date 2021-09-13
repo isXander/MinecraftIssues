@@ -306,7 +306,7 @@
       ]
     },
     {
-      "info": "EvergreenHUD appears to be outdated. [Update here](https://github.com/isXander/EvergreenHUD/releases)",
+      "info": "EvergreenHUD appears to be outdated. Update here. https://modrinth.com/mod/evergreenhud",
       "and": [
         {
           "method": "contains",
