@@ -25,7 +25,7 @@
       ]
     },
     {
-      "info": "**The power of the gods was too much for Java to handle. Delete any \"God Mode\" shortcuts on your PC and relaunch the game**",
+      "info": "Delete any God Mode shortcuts on your PC and relaunch the game.",
       "and": [
         {
           "method": "contains",
