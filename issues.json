@@ -25,6 +25,15 @@
       ]
     },
     {
+      "info": "Try disabling Optifine fast renderer. If you can't access the settings, delete optionsof.txt",
+      "and": [
+        {
+          "method": "contains",
+          "value": "nvoglv64.dll+0xe04120"
+        }
+      ]
+    },
+    {
       "info": "Delete any God Mode shortcuts on your PC and relaunch the game.",
       "and": [
         {
