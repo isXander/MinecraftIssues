@@ -16,6 +16,27 @@
   ],
   "Solutions": [
     {
+      "info": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
+      "and": [
+        {
+          "method": "contains",
+          "value": "java.lang.IllegalArgumentException: Cannot get property PropertyEnum"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.block.state.BlockState$StateImplementation.getValue(BlockState.java:137)"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.block.BlockStairs.doesSideBlockRendering(BlockStairs.java:79)"
+        },
+        {
+          "method": "contains",
+          "value": "at club.sk1er.patcher.hooks.BlockInfoHook.updateLightMatrix"
+        }
+      ]
+    },
+    {
       "info": "If you use a Microsoft account, enable multiplayer. You should be able to do so from https://account.xbox.com/en-us/Settings under the Xbox One/Windows 10 Online Safety tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it. From there, they should be able to enable multiplayer for your account.",
       "and": [
         {
