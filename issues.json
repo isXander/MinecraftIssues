@@ -46,6 +46,15 @@
       ]
     },
     {
+      "info": "**Go to ``.minecraft/skyclient/config/notenoughupdates`` and delete ``storageItems.json``**",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
+        }
+      ]
+    },
+    {
       "info": "Try disabling Optifine fast renderer. If you can't access the settings, delete optionsof.txt",
       "and": [
         {
