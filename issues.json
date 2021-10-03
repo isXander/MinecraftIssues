@@ -46,6 +46,15 @@
       ]
     },
     {
+      "info": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
+      "and": [
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
+        }
+      ]
+    },
+    {
       "info": "Try disabling Optifine fast renderer. If you can't access the settings, delete optionsof.txt",
       "and": [
         {
@@ -497,7 +506,7 @@
       "and": [
         {
           "method": "contains",
-          "value": "ava.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
+          "value": "java.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
         }
       ]
     }
