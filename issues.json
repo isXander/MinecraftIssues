@@ -46,7 +46,7 @@
       ]
     },
     {
-      "info": "**Go to ``.minecraft/skyclient/config/notenoughupdates`` and delete ``storageItems.json``**",
+      "info": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
       "and": [
         {
           "method": "contains",
@@ -506,7 +506,7 @@
       "and": [
         {
           "method": "contains",
-          "value": "ava.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
+          "value": "java.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
         }
       ]
     }
