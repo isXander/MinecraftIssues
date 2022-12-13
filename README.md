@@ -4,43 +4,29 @@ A repository of Minecraft errors and solutions/recommendations.
 ### Schema
 ```json5
 {
-  "info": "This is the text that is shown to the user when triggered",
-  "and": [ // all checks must be true
+  "schema_version": 1,
+  "categories": [
     {
-      "method": "contains", // checks if the text contains the value
-      "value": "the text must contain this value",
-      "not": true, // inverts the check
-      "ic": true, // ignore case
-      "leniency": 0.5 // half the string can be different to the value
-    },
-    {
-      "method": "regex", // if a single occurance is found. it is triggered
-      "value": "regex goes here",
-      "not": true // inverts the check
-    },
-    {
-      "method": "modloaded", // checks if the text contains evidence of a mod being loaded
-      "value": "the mod id goes here",
-      "not": true // invers the check
-    }
-  ],
-  "or": [ // one or more of the checks must be true
-    {
-      "method": "contains", // checks if the text contains the value
-      "value": "the text must contain this value",
-      "not": true, // inverts the check
-      "ic": true, // ignore case
-      "leniency": 0.5 // half the string can be different to the value
-    },
-    {
-      "method": "regex", // if a single occurance is found. it is triggered
-      "value": "regex goes here",
-      "not": true // inverts the check
-    },
-    {
-      "method": "modloaded", // checks if the text contains evidence of a mod being loaded
-      "value": "the mod id goes here",
-      "not": true // invers the check
+      "name": "Solutions",
+      "checks": [
+        {
+          "message": "You encountered a first-time crash using CEM mod. Just launch again to resolve the issue.",
+          // methods can either be terminating or conditioning
+          // terminating are actual checks, for example: 'regex', 'contains' or 'mod_loaded'
+          // conditioning take more methods such as: 'and', 'or', 'not'
+          "method": "and",
+          "conditions": [ // conditions take more methods, can be another 'and', etc
+            {
+              "method": "contains",
+              "query": "java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'cem'!"
+            },
+            {
+              "method": "contains",
+              "query": "Caused by: java.lang.ClassNotFoundException: me.lortseam.completeconfig.gui.cloth.ClothConfigScreenBuilder"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
